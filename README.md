@@ -1,5 +1,5 @@
 # Hangman
-A simple hangman game written in python. Supported by the online WordNet database.
+A simple hangman game written in python. Supported by the online [WordNet database](https://wordnet.princeton.edu/).
 
 
 Run The file Hangman.py to play.
