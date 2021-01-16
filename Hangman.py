@@ -1,4 +1,5 @@
-
+import random
+import Info
 open('wordsList.py', 'r')
 
 
@@ -47,25 +48,15 @@ def infomenu():
     while True:
         infoselection = int(input())
         if infoselection == 1:
-            from Info import info
             print(info)
-            continue
         elif infoselection == 2:
-            from Info import rules
             print(rules)
-            continue
         elif infoselection == 3:
-            from Info import history
             print(history)
-            continue
         elif infoselection == 4:
-            from Info import strategy
             print(strategy)
-            continue
         elif infoselection == 5:
-            from Info import maker
             print(maker)
-            continue
         elif infoselection == 6:
             return menu
         elif infoselection == 7:
